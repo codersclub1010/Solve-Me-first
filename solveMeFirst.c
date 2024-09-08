@@ -12,14 +12,14 @@ int main() {
     printf("Enter first number (1 to 1000): ");
     scanf("%d",&num1);
     if(num1>1000){
-        printf("Invalid input");
+        printf("Invalid input!");
         printf("Enter the first number Again : ");
         scanf("%d",&num1);
     }
     printf("Enter second number (1 to 1000): ");
     scanf("%d",&num2);
     if(num2>1000){
-        printf("Invalid input");
+        printf("Invalid input!");
         printf("Enter the second number Again : ");
         scanf("%d",&num2);
     }
